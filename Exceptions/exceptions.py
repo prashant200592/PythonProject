@@ -71,7 +71,7 @@ num = -1
 print("Testing program...")
 try:
     enterage(num)
-except:
+except ValueError:
     print("ValueError found and handled...")
 else:
     print("No error found...")

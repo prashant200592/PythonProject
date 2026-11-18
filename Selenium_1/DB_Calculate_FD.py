@@ -9,6 +9,7 @@ try:
     curs.execute(search_query)
     for row in curs:
         principal = row[0]
+        #print(principal, end=" ")
         rateOfInterest = row[1]
         per1 = row[2]
         per2 = row[3]
