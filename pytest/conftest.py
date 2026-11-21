@@ -30,7 +30,8 @@ def pytest_html_results_summary(prefix, summary, postfix):
 
 def pytest_metadata(metadata,config):
     metadata.pop("JAVA_HOME", None)
-    metadata["Project"]:"Automation Test Project"
+    metadata["Project"] = "Automation Test Project"
+    metadata["Browser"] = config.getoption('--browser')
 
 @pytest.hookimpl(tryfirst=True)
 def pytest_configure(config):

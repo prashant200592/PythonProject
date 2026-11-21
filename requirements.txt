@@ -1,0 +1,13 @@
+selenium
+pytest
+pytest-html
+pytest-xdist
+pytest-dependency
+pytest-ordering
+pytest-metadata
+pytest-rerunfailures
+allure-pytest
+requests
+openpyxl
+mysql-connector-python
+webdriver-manager
